@@ -1,0 +1,103 @@
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/flip-style.css">
+
+	<script src="scripts/flip.js"></script>
+</head>
+<body>
+	<div class="body">
+		<div class="row header">
+			<div class="col-xs-12">
+				<h1>Del Rosario<wbr>.site</h1>
+			</div>
+		</div>
+		<div class="content">
+			<div class="row">
+				<p>A family of stories.</p>
+			</div>
+			<div class="row">
+				<div class="col-md-4 sibling-container" id="kuya-henry-container">
+					<div class="flippable-container" id="flip-toggle">
+						<div class="flippable">
+							<div class="sibling">
+								<div class="front">
+									<img class="profile" src="http://lorempixel.com/200/200/abstract/1" alt="henry del rosario"/>
+									<h2>Henry Del Rosario</h2>
+									<ul>
+										<li><a>medicine</a></li>
+										<li><a>poetry</a></li>
+										<li><a>enthusiasm</a></li>
+									</ul>
+									<button onclick="document.querySelector('#kuya-henry-container #flip-toggle').classList.toggle('flipped');">more</button>
+								</div>
+								<div class="back">
+									<h2>Henry Del Rosario</h2>
+									<button onclick="document.querySelector('#kuya-henry-container #flip-toggle').classList.toggle('flipped');">less</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 sibling-container" id="kuya-ralph-container">
+					<div class="flippable-container" id="flip-toggle">
+						<div class="flippable">
+							<div class="sibling kuya-ralph">
+								<div class="front">
+									<img class="profile" src="http://lorempixel.com/200/200/abstract/2" alt="ralph del rosario"/>
+									<h2>Ralph Del Rosario</h2>
+									<ul>
+										<li><a>video</a></li>
+										<li><a>theatre</a></li>
+										<li><a>energy</a></li>
+									</ul>
+									<button onclick="document.querySelector('#kuya-ralph-container #flip-toggle').classList.toggle('flipped');">more</button>
+								</div>
+								<div class="back">
+									<h2>Ralph Del Rosario</h2>
+									<button onclick="document.querySelector('#kuya-ralph-container #flip-toggle').classList.toggle('flipped');">less</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 sibling-container" id="dannie-container">
+					<div class="flippable-container" id="flip-toggle">
+						<div class="flippable">
+							<div class="sibling dannie">
+								<div class="front">
+									<img class="profile" src="http://lorempixel.com/200/200/abstract/3" alt="dannielle del rosario"/>
+									<h2>Dannielle Del Rosario</h2>
+									<ul>
+										<li><a href="https://www.dannielle.me">web</a></li>
+										<li><a href="http://differentgames.org/">games</a></li>
+										<li><a href="http://dirosa.me/">optimism</a></li>
+									</ul>
+									<button onclick="document.querySelector('#dannie-container #flip-toggle').classList.toggle('flipped');">more</button>
+								</div>
+								<div class="back">
+									<h2>Dannielle Del Rosario</h2>
+									<p class="flavor">Dannielle is a software developer and visual artist. She often blogs about play and games on the Internet. Her interests include travel, digital media, and pastries.</p>
+									<button onclick="document.querySelector('#dannie-container #flip-toggle').classList.toggle('flipped');">less</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+

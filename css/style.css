@@ -1,0 +1,95 @@
+body {
+	background: white;
+	color: #fb5941;
+	font-family: "Arvo", "Helvetica", sans-serif;
+	word-wrap: break-word;
+}
+
+.header {
+	padding-top: 2em;
+/*	background: #ea2e34;
+	color: #fddcb4;
+*/	font-size: 2em;
+}
+
+.body {
+	text-align: center;
+	font-size: 2em;
+}
+
+.sibling-container {
+	padding: 2em;
+}
+
+.sibling {
+/*	transition: transform 0.5s ease;
+*/}
+
+.sibling .front, .sibling .back {
+	background: #f7d08a;
+	border-bottom: 5px solid #f79f79;
+	border-radius:10px;
+	padding: 3em 1em;
+}
+
+.dannie .front, .dannie .back {
+	background: #e3f09b;
+}
+
+.kuya-ralph .front, .kuya-ralph .back {
+	background: #87b6a7;
+	color: #5b5941;
+	border-bottom: 5px solid #5b5941;
+
+}
+/*
+.sibling:hover {
+	transform: translateY(-10px);
+}*/
+
+.sibling ul {
+	list-style: none;
+	padding: 0;
+}
+
+.sibling li a {
+	padding: 0.1em;
+	background: linear-gradient(to left, rgba(0,0,0,0) 50%, rgba(255,255,255,0) 50%);
+    background-size: 200% 100%;
+    background-position:right 0px bottom;
+    transition: background-position .5s ease;
+    color: #fb5941;
+}
+
+.sibling li a:hover {
+	background: linear-gradient(to left, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 50%);
+    background-size: 200% 100%;
+	background-position:left bottom;
+    text-decoration: none;
+}
+
+.kuya-ralph li a {
+	color: #5b5941;
+}
+.sibling li a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+img.profile {
+	border-radius: 100px;
+}
+
+.flavor {
+	font-size: 0.75em;
+}
+
+button {
+	background: none;
+	border: 3px dotted;
+	border-radius:10px;
+}
